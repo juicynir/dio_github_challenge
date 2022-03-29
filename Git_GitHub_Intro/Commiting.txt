@@ -1,0 +1,4 @@
+git add . #to add files to the local branch#
+
+
+git commit -m "write a message describing the new commit. Make it coherent and cohesive"
