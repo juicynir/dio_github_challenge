@@ -1,0 +1,31 @@
+ssh-keygen -t ed25519 -C email@provider #to generate the keys
+
+
+#enter password twice
+
+
+#open the folder where the keys are
+
+cd folder address 
+
+
+ls #to list the files on the folder
+
+
+cat id_ed25519.pub 
+
+#copy the content of the file and paste it on GitHub
+
+
+#New SSH Key, give a name to the key and paste the key details on the appropriate area. 
+
+
+
+#adding the private key
+
+eval $(ssh-agent -s)
+
+ssh-add id_25519 
+
+
+#enter the password you've used before. 
